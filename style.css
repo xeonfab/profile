@@ -2,7 +2,9 @@
 h1 {
   color: black;
   font-family: 'Cambay', sans-serif;
-  font-size: 30px;
+  font-size: 3em;
+  margin: 0;
+
 }
 
 a {
@@ -18,7 +20,10 @@ a:hover {
 h2 {
   color: black;
   font-family: 'Cambay', sans-serif;
-  font-size: 20px;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 li {
@@ -76,7 +81,6 @@ body {
   width: 130px;
 }
 .title {
-  display: flex;
     justify-content: center;
     padding-bottom: 40px;
 }
@@ -89,8 +93,7 @@ body {
 
 .cta-primary {
   background-color : red;
-  width : 400px;
-  padding: 20px;
+  padding: 20px 40px;
   color : white;
   border-radius: 4px;
   text-decoration: none;

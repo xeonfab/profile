@@ -1,11 +1,113 @@
 
 h1 {
-  color: red;
-  font-family: arial;
-  font-weight: 300;
+  color: black;
+  font-family: 'Cambay', sans-serif;
+  font-size: 30px;
+}
 
-#cta-primary {
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+     color: red;
+  text-decoration: none;
+}
+
+h2 {
+  color: black;
+  font-family: 'Cambay', sans-serif;
+  font-size: 20px;
+}
+
+li {
+  color: black;
+  font-family: 'Cambay', sans-serif;
+  size: 1em;
+}
+
+p {
+}
+
+h3 {
+  color: black;
+  font-family: 'Cambay', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #F5F3F3;
+}
+
+.card {
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 12px;
+  width: 800px;
+  text-align: center;
+  padding-bottom: 40px;
+  }
+
+@media (max-width: 960px) {
+.card {
+  width: 720px;
+}
+}
+
+@media (max-width: 720px) {
+  .card {
+  width: 600px;
+    }
+  }
+
+  @media (max-width: 540px) {
+  .card {
+  width: 400px;
+    }
+  }
+
+.photo-profil{
+  border-radius: 50%;
+  width: 130px;
+}
+.title {
+  display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.inline_list > li {
+  display: inline-block;
+  padding: 0 20px;
+  color: black;
+}
+
+.cta-primary {
   background-color : red;
-  width : 300px;
+  width : 400px;
+  padding: 20px;
+  color : white;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
+.info_profile {
+text-align: center;
+}
+
+.description {
+  padding: 20px;
+  text-align: left;
+}
+
+.visit_me {
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 auto;
 }
